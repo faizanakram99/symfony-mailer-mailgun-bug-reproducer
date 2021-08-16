@@ -1,0 +1,26 @@
+{
+    "name": "ubuntu/mime-bug",
+    "description": "Reproducer",
+    "type": "project",
+    "require": {
+        "symfony/mime": "^5.0.3",
+        "egulias/email-validator": "^3.1",
+        "symfony/mailgun-mailer": "^5.3",
+        "symfony/mailer": "^5.3",
+        "webmozart/assert": "^1.10",
+        "symfony/http-client": "^5.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ubuntu\\MimeBug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faizan Akram",
+            "email": "hello@faizanakram.me"
+        }
+    ],
+    "minimum-stability": "stable"
+}
